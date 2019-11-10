@@ -16,7 +16,7 @@ $jumlah = trim(fgets(STDIN));
 $i=0;
 while($i<$jumlah)
     {
-			sleep(0.2);
+			sleep(0.1);
 			$i++;
 		    bom($no);
 	};
