@@ -15,16 +15,8 @@ function send($phone){
 
 echo "Lo Ngapain Di Script Gua Babi ? Jangan Tau Make Aja Babi Lu Tau Memek Gak ? Itu Kesukaan Gua Anjing ; SGBTEAM\n\n";
 echo "NomorMusuhAnjing\nLoTauInputGakBabi? : ";
-$nomor = trim(fgets(STDIN));
-echo "Jumlah  Bom\t: ";
-$jumlah = trim(fgets(STDIN));
-$i=0;
-while($i<$jumlah)
-    {
-			sleep(0.1);
-			$i++;
-		    bom($no);
-	};
+$nomor/jumlahspam = trim(fgets(STDIN));
+
 execute = send($nomor);
 print $execute;
 
